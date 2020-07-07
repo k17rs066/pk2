@@ -63,10 +63,12 @@ class TeaCup extends Cup{
 
 class WaterCup extends Cup{
     private String place;
+
     void set(String place, int capacity ){
         super.set("水",capacity);
         this.place=place;
     }
+
     void show() {
         System.out.print(getName()+"（"+place+"産）：");
         super.show();
