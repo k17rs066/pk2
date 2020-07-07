@@ -1,0 +1,62 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ex12_1<pk2_12_2bd2c311>",
+            "request": "launch",
+            "mainClass": "Ex12_1",
+            "projectName": "pk2_12_2bd2c311"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ex12_2<pk2_12_2bd2c311>",
+            "request": "launch",
+            "mainClass": "Ex12_2",
+            "projectName": "pk2_12_2bd2c311"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ex12_3<pk2_12_2bd2c311>",
+            "request": "launch",
+            "mainClass": "Ex12_3",
+            "projectName": "pk2_12_2bd2c311"
+        }
+    ]
+}

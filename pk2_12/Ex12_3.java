@@ -1,5 +1,3 @@
-import java.rmi.registry.LocateRegistry;
-
 public class Ex12_3 {
     public static void main(String[] args) {
         Locatable array[]={new Line(0,1,0),
